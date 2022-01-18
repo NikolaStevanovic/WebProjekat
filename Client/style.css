@@ -1,0 +1,57 @@
+.GlavniKontejner{
+    display: flex;
+    flex-direction: row;
+}
+.kontForma{
+    display: flex;
+    flex: 1 1 400px;
+    max-width: 400px;
+    flex-direction: column;
+    margin-right: 5px;
+    background-color: lightyellow;
+}
+.kontPrikaz{
+    display:flex;
+    flex-direction: column;
+}
+table,tr,th, td{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightyellow;
+}
+table{
+    border-collapse: collapse;
+}
+button{
+    margin-top: 5px;
+}
+.btnDodaj,.btnIzmeni{
+    margin-right: 5px;
+    flex: 1 1 400px;
+}
+.btnObrisi{
+    flex: 1 1 400px;
+}
+.redButton{
+    display: flex;
+    margin-bottom: 20px;
+}
+.divRadio{
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.lblRadio{
+    margin-left: 30px;
+}
+.redPrikaz{
+    display: flex;
+    margin-bottom: 20px;
+}
+.btnKnjige{
+    margin-right: 5px;
+    flex: 1 1 400px;
+}
+.btnIznajmljivanja{
+    flex: 1 1 400px;
+}
