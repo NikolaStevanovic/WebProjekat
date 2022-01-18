@@ -1,14 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200&display=swap');
+
+
+label{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 1000;
+    color:white;
+}
+input{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 1000;
+}
+select{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 1000;
+    border-radius: 5px;
+}
 .GlavniKontejner{
     display: flex;
     flex-direction: row;
 }
+body{
+    background-image: url("./bg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
 .kontForma{
     display: flex;
-    flex: 1 1 400px;
-    max-width: 400px;
+    flex: 1 1 600px;
+    max-width: 600px;
     flex-direction: column;
     margin-right: 5px;
-    background-color: lightyellow;
+    background-color: rgba(0,0,0,.35);   
 }
 .kontPrikaz{
     display:flex;
@@ -18,12 +40,19 @@ table,tr,th, td{
     border: 1px solid black;
     padding: 5px;
     background-color: lightyellow;
+    border-radius: 2px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 1000;
+    background-color: rgba(0,0,0,.1); 
 }
 table{
     border-collapse: collapse;
 }
 button{
     margin-top: 5px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 1000;
+    border-radius: 5px;
 }
 .btnDodaj,.btnIzmeni{
     margin-right: 5px;
@@ -38,15 +67,16 @@ button{
 }
 .divRadio{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     border: 1px solid black;
+    border-radius: 5px;
 }
 .lblRadio{
     margin-left: 30px;
 }
 .redPrikaz{
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .btnKnjige{
     margin-right: 5px;
