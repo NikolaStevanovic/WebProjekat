@@ -27,21 +27,5 @@ export class Knjiga{
         el = document.createElement("td");
         el.innerHTML=this.biblioteka;
         tr.appendChild(el);
-
-
-        /*el = document.createElement("td");
-        tr.appendChild(el);
-        let dugme = document.createElement("button");
-        dugme.innerHTML="Obrisi";
-        el.appendChild(dugme);
-        dugme.onclick=(ev)=>this.obrisiZapisOPolozenomIspitu();*/
     }
-    obrisiZapisOPolozenomIspitu(){
-        //sami implementirate
-        //ispravite priavljanje podataka o polozenim ispitima tako da vraca i id iz tabele studentPredmet
-        //upamtite ga kao parametar ove klase
-        //fetch za metodu za brisanje
-        //ukoliko sve prodje ok, u then delu ukoloniti red iz prikaza
-    }
-    
 }
